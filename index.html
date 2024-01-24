@@ -13,10 +13,21 @@
     <button type="button" onclick="getId()">ENTER</button>
 
     <div class="box">
+        <label for="position">役員:
+
+            <select name="position" id="position">
+                <option value="nashi">選択肢</option>
+                <option value="baito">バイト</option>
+                <option value="seishain">正社員</option>
+            </select>
+        </label>
         <div class="boxes">作業員: <p class="employee-name"></p></div>
         <div class="boxes">ID: <p class="employee-id"></p></div>
         <div class="boxes">勤務日数: <p class="working-days"></p></div>
+        <div class="salary">給料額面:<p class="gakumen"></p></div>
     </div>
+
+
     
 
     <script src="/script.js"></script>
